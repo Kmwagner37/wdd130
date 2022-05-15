@@ -23,28 +23,37 @@ main section {
 }
 body {
     background-color:#fcfbfb; 
+    color: #d9c2a3
 }
 header{
     background-color:rgba(20,30,13, .7);
+    color: #d9c2a3
 }
 nav a:hover{
     background-color: black;
+    color: #d9c2a3
 }
 .join{
     background-color: #D4AC0D;
+    color: #d9c2a3
 }
 .book:hover{
     background-color:#A42212;
+    color: #d9c2a3
 }
 .join:hover{
     background-color:#ccc ;
+    color: #d9c2a3
 }
 #background{
     background-color: #999 ;
+    color: #d9c2a3
 }
 .msg{
   background-color:#153c59 ;
+  color: #d9c2a3
 }
 footer{
     background-color:#396E94 ;
+    color: #d9c2a3
 }
