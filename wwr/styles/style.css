@@ -5,6 +5,7 @@
 
 nav a {
     text-align:center;
+    text-decoration: none;
 }
 #hero-msg h1 { 
     text-align: center 
@@ -36,11 +37,14 @@ nav a:hover{
 }
 .join{
     background-color: #D4AC0D;
-    color: #090808
+    color: #090808;
+    text-decoration: none;
 }
 .book:hover{
     background-color:#A42212;
-    color: #d9c2a3
+    color: #d9c2a3;
+    text-decoration: none;
+
 }
 .join:hover{
     background-color:#ccc ;
@@ -51,10 +55,22 @@ nav a:hover{
     color: #d9c2a3
 }
 .msg{
-  background-color:#153c59 ;
+  background-color:#153c59;
   color: #d9c2a3
 }
 footer{
     background-color:#396e94 ;
-    color: #d9c2a3
+    color: #d9c2a3;
+    text-decoration: none;
+}
+
+.logo, .icon {
+    width: 80px;
+
+}
+#hero-img {
+    width: 100px;
+}
+footer h3 a:hover{
+    text-decoration: underline;
 }
