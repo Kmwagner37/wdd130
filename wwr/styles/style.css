@@ -27,7 +27,7 @@ body {
 }
 header{
     background-color:rgba(20,30,13, .7);
-    color: #d9c2a3
+    color: #396e94
 }
 nav a:hover{
     background-color: black;
@@ -35,7 +35,7 @@ nav a:hover{
 }
 .join{
     background-color: #D4AC0D;
-    color: #d9c2a3
+    color: #090808
 }
 .book:hover{
     background-color:#A42212;
@@ -54,6 +54,6 @@ nav a:hover{
   color: #d9c2a3
 }
 footer{
-    background-color:#396E94 ;
+    background-color:#396e94 ;
     color: #d9c2a3
 }
