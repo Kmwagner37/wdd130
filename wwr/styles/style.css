@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Cormorant+Garamond:wght@300&display=swap');
+
 #content {
     max-width: 1600px; 
     margin: 0 auto;
@@ -10,9 +11,10 @@ nav a {
 }
 body{
     font-family: "Cormorant Garamond", Helvetica, sans-serif;
+    font-size: 22px;
 }
 h1, h2, h3, h4, h5, h6, .msg h2 {
-    font-family: 'Cormorant';
+    font-family: 'Arvo';
 }
 #hero-msg h1 { 
     text-align: center;
