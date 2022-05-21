@@ -65,7 +65,8 @@ nav a:hover{
 }
 .msg{
   background-color:#153c59;
-  color: #d9c2a3
+  color: #d9c2a3;
+  line-height: 1.5em;
 }
 footer{
     background-color:#396e94 ;
@@ -82,4 +83,16 @@ footer{
 }
 footer h3 a:hover{
     text-decoration: underline;
+}
+.home-title{
+    font-family:"Cormorant Garamond", Helvetica, sans-serif;
+    font-size: 2em; 
+}
+.book, .join{ 
+    font-family: "Cormorant Garamond", Helvetica, sans-serif;
+    font-size: 18px;
+} 
+.msg p {
+    font-family: "Cormorant Garamond", Helvetica, sans-serif;
+    font-size:8em;
 }
