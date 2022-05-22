@@ -12,9 +12,14 @@ nav a {
 body{
     font-family: "Cormorant Garamond", Helvetica, sans-serif;
     font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 h1, h2, h3, h4, h5, h6, .msg h2 {
     font-family: 'Arvo';
+}
+h2{
+    margin:0;
 }
 #hero-msg h1 { 
     text-align: center;
@@ -34,6 +39,7 @@ main section {
 body {
     background-color:#fcfbfb; 
     color:#153c59 ;
+
   
 }
 header{
