@@ -8,6 +8,8 @@
 nav a {
     text-align:center;
     text-decoration: none;
+    padding:35px;
+    text-align:center;
 }
 body{
     font-family: "Cormorant Garamond", Helvetica, sans-serif;
@@ -73,11 +75,17 @@ nav a:hover{
   background-color:#153c59;
   color: #d9c2a3;
   line-height: 1.5em;
+  padding-bottom:35px;
 }
 footer{
     background-color:#396e94 ;
     color: #d9c2a3;
     text-decoration: none;
+    padding: 25px 50px;
+}
+footer, .social img{
+    padding-top:15px;
+
 }
 
 .logo, .icon {
@@ -97,8 +105,17 @@ footer h3 a:hover{
 .book, .join{ 
     font-family: "Cormorant Garamond", Helvetica, sans-serif;
     font-size: 18px;
+    padding: 15px 30px;
 } 
 .msg p {
     font-family: "Cormorant Garamond", Helvetica, sans-serif;
     font-size:.8em;
+    padding-bottom:15px;
+
+}
+#logo_link{
+    padding:35px;
+}
+.icon{
+    padding-top:10px;
 }
