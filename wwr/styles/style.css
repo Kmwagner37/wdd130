@@ -49,7 +49,6 @@ nav a:hover{
     color: #d9c2a3
 }
 .join{
-    background-color: #D4AC0D;
     color: #090808;
     text-decoration: none;
 }
@@ -105,6 +104,7 @@ footer h3 a:hover{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    background-color: #D4AC0D;
 } 
 .msg p {
     font-family: "Cormorant Garamond", Helvetica, sans-serif;
@@ -130,9 +130,4 @@ footer h3 a:hover{
 }
 main section img{
     box-sizing: border-box;
-}
-.button-box{
-    background-color:#D4AC0D;
-
-
 }
