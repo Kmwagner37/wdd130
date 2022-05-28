@@ -64,8 +64,8 @@
     /* This is the parent of the activity 3 boxes. */
   }
   .red3 {
-    width: 100px; 
-    height: 100%; 
+    width: 100%; 
+    height: 100px; 
     background-color: red; 
   } 
   .green3 {
