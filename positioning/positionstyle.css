@@ -45,16 +45,23 @@
     width: 100px; 
     height: 100px; 
     background-color: green; 
+    margin-left: 50px;
+    margin-top: -50px;
+
   } 
   .yellow2 {
     width: 100px; 
     height: 100px; 
     background-color: gold; 
+    margin-left: 100px;
+    margin-top: -50px;
   } 
   .blue2 {
     width: 100px; 
     height: 100px; 
     background-color: blue; 
+    margin-left: 150px;
+    margin-top: -50px;
   } 
   /* Activity 3 styles */ 
   .content3 {
@@ -163,6 +170,7 @@
     width: 100px; 
     height: 100px; 
     background-color: green; 
+    
   } 
   .yellow6 {
     width: 100px; 
