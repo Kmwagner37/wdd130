@@ -37,6 +37,9 @@ body {
   font-size: 18px;
   text-align: center;
 }
+#hero-msg h4 {
+  color: white;
+}
 img {
   display: block;
   margin: 0 auto;
