@@ -51,7 +51,7 @@ nav a {
     text-align:center;
     color: white;
 }
-.home-grid{
+.home-grid, .rivers-grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -226,6 +226,22 @@ footer {
     align-items: center;
 }
 
+/* Rivers page */
+#hero-msg .rivers-title {
+    color: black;
+}
+#hero-msg .sub-heading{
+    color: black
+}
+
+.rivers-grid h2 {
+    font-size: 22px;
+}
+.camping-card, .rivers-card, .rapids-card{
+    
+}
+
+/* Media queries */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
