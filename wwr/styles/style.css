@@ -237,8 +237,8 @@ footer {
 .rivers-grid h2 {
     font-size: 22px;
 }
-.camping-card, .rivers-card, .rapids-card{
-    
+.rivers-grid .rivers-card, .rivers-grid .camping-card, .rivers-grid .rapids-card {
+    margin:100px 0;
 }
 
 /* Media queries */
