@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="homepage.css">
+    <script src="scrips.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,29 +20,88 @@
             </nav>
         </header>
         <main>
-            <section class="hero-section" > 
+            <section class="hero-section">
                 <img class="logo" src="images/KrystalPalmer.png" alt="Krystal Palmer Logo">
                 <div class="background">
                     <h1 class="h1">Fine Art That Gives Back</h1>
-                    <p class="p"> Original fine art, created by Krystal Palmer. These one of a kind pieces were created with either
+                    <p class="p"> Original fine art, created by Krystal Palmer. These one of a kind pieces were created
+                        with either
                         professional grade watercolor paint, or professional grade gouache paints on high quality
                         watercolor paper. A portion of the proceeds will go to a family with a Type One Diabetes child.
                     </p>
                 </div>
             </section>
-            <section class="image-section">
-                <img class="mountain" src="images/mountain2.jpg" alt="Mountain Painting">
-                <img class="path" src="images/path2.jpg" alt="Watercolor Path Painting">
-                <img class="darkflower" src="images/darkflower.jpg" alt="Flower Painting with Dark Background">
-            </section>
-        </main>
-        <footer class="footer-section">
-            <img class="facebook" src="images/facebook.png" alt="Facebook Icon">
-            <img class="instagram"src="images/instagram.png" alt="Instagram Icon">
-            <img class="pinterest"src="images/pinterest.png" alt="Pinterest Icon">
-            <h3><a class="contact-us"href="contactus.html">Contact Us</a></h3>
-            <a class= "site-plan"href="https://kmwagner37.github.io/wdd130/wwr/fineart/site-plan.html"> Site Plan</a>
+            <!-- Images used to open the lightbox -->
+            <!-- <div class="row">
+                <div class="column">
+                    <img src="images/mountain2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="images/path2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="images/darkflower.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+            </div> -->
 
-        </footer>
+            <!-- The Modal/Lightbox -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="images/mountain2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="images/path2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="images/darkflower.jpg" style="width:100%">
+                    </div>
+
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Caption text -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <!-- Thumbnail image controls -->
+                    <div class="column">
+                        <img class="demo" src="images/mountain2.jpg" onclick="currentSlide(1)" alt="Nature">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo" src="images/path2.jpg" onclick="currentSlide(2)" alt="Snow">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo" src="images/darkflower.jpg" onclick="currentSlide(3)" alt="Mountains">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <section class="image-section">
+        <img class="mountain" src="images/mountain2.jpg" onclick="openModal();currentSlide(1)" alt="Mountain Painting">
+        <img class="path" src="images/path2.jpg" onclick="openModal();currentSlide(2)" alt="Watercolor Path Painting">
+        <img class="darkflower" src="images/darkflower.jpg" onclick="openModal();currentSlide(3)" alt="Flower Painting with Dark Background">
+    </section>
+    </main>
+    <footer class="footer-section">
+        <img class="facebook" src="images/facebook.png" alt="Facebook Icon">
+        <img class="instagram" src="images/instagram.png" alt="Instagram Icon">
+        <img class="pinterest" src="images/pinterest.png" alt="Pinterest Icon">
+        <h3><a class="contact-us" href="contactus.html">Contact Us</a></h3>
+        <a class="site-plan" href="https://kmwagner37.github.io/wdd130/wwr/fineart/site-plan.html"> Site Plan</a>
+
+    </footer>
     </div>
 </body>
