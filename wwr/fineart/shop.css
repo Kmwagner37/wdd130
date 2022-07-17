@@ -1,0 +1,32 @@
+
+#content{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.images-section{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.wildflower{
+    grid-column-start:1;
+    grid-column: 1/4;
+    grid-row: 1/1;
+}
+.lemon{
+    grid-column-start: 2;
+    grid-column: 3/4;
+    grid-row: 1/4
+
+}
+.pinkflower{
+    grid-column-start: 1;
+    grid-column: ;
+}
+.poppy{
+    grid-column-start: 2;
+    grid-column: 3/4;
+    grid-row: 2/4
+}
