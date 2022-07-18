@@ -9,6 +9,7 @@ header{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #D5BDAF;
+    padding: 20px;
 }
 nav{ 
     grid-column-start: 3;
@@ -48,6 +49,7 @@ p{
     grid-template-columns: repeat(10, 1fr);
     grid-column: 1/12;
     background-color: #D5BDAF;
+    padding: 20px;
 }
 .pinterest{
     grid-column-start: 3;
