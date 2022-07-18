@@ -39,6 +39,9 @@ main{
 .p{
     font-family:'EB Garamond';
 }
+p{
+    font-family:'EB Garamond';
+}
 
 .footer-section{
     display:grid;
@@ -67,4 +70,7 @@ main{
 .site-plan{
     grid-column-start:10;
     grid-column: 10/11;
+}
+.paragraph{
+    font-family:'EB Garamond';
 }
