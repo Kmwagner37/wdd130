@@ -49,7 +49,7 @@ p{
     grid-template-columns: repeat(10, 1fr);
     grid-column: 1/12;
     background-color: #D5BDAF;
-    padding: 20px;
+    margin-top: 150px;
 }
 .pinterest{
     grid-column-start: 3;
