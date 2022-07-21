@@ -63,12 +63,6 @@ p{
     grid-column-start:1;
     grid-column:1/2;
 }
-
-.contact-us{
-    grid-column-start: 9;
-    grid-column:9/10;
-
-}
 .site-plan{
     grid-column-start:10;
     grid-column: 10/11;
